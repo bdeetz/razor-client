@@ -22,15 +22,16 @@ Gem::Specification.new do |spec|
   # e.g. https://tickets.puppetlabs.com/browse/RAZOR-572. This is only
   # effective for locally built gems, as project_data.yaml does not support
   # this feature.
-  spec.required_ruby_version = '>= 2.0.0'
+  spec.required_ruby_version = '2.3.1'
 
   spec.add_dependency "mime-types"
   spec.add_dependency "multi_json"
   spec.add_dependency "faraday", '>= 0.15'
   spec.add_dependency "command_line_reporter", '~> 3.0'
   spec.add_dependency "gettext-setup", '>= 0.31'
-  spec.add_dependency "fast_gettext", '~> 1.1.0'
-  spec.add_dependency "faraday", '0.17.4'
+  #spec.add_dependency "fast_gettext", '~> 1.1.0'
+  #spec.add_dependency "faraday", '0.17.4'
+  #spec.add_dependency "representable", '3.0.4'
 
   spec.add_development_dependency "bundler"
   spec.add_development_dependency "rake"
