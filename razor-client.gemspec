@@ -29,6 +29,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "faraday", '>= 0.15'
   spec.add_dependency "command_line_reporter", '~> 3.0'
   spec.add_dependency "gettext-setup", '>= 0.31'
+  spec.add_dependency "fast_gettext", '~> 1.1.0'
 
   spec.add_development_dependency "bundler"
   spec.add_development_dependency "rake"
