@@ -33,6 +33,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "faraday", '0.17.4'
   spec.add_dependency "representable", '3.0.4'
   spec.add_dependency "torquebox", '3.2.0'
+  spec.add_dependency "forwardable", '1.3.2'
 
   spec.add_development_dependency "bundler", '1.17.3'
   spec.add_development_dependency "rake", '12.3.3'
