@@ -35,6 +35,8 @@ Gem::Specification.new do |spec|
   spec.add_dependency "forwardable", '1.3.0'
   spec.add_dependency "prime", '0.1.0'
   spec.add_dependency "gettext", '3.2.9'
+  spec.add_dependency "multipart-post", '2.2.3'
+  spec.add_dependency "mime-types-data", '3.2022.0105'
 
   spec.add_development_dependency "bundler", '1.17.3'
   spec.add_development_dependency "rake", '12.3.3'
