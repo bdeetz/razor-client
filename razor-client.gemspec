@@ -26,7 +26,6 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "mime-types"
   spec.add_dependency "multi_json"
-  #spec.add_dependency "faraday", '>= 0.15'
   spec.add_dependency "command_line_reporter", '~> 3.0'
   spec.add_dependency "gettext-setup", '0.30'
   spec.add_dependency "fast_gettext", '1.1.2'
@@ -34,6 +33,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "representable", '3.0.4'
   spec.add_dependency "torquebox", '3.2.0'
   spec.add_dependency "forwardable", '1.3.0'
+  spec.add_dependency "prime", '0.1.0'
 
   spec.add_development_dependency "bundler", '1.17.3'
   spec.add_development_dependency "rake", '12.3.3'
