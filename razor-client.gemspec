@@ -29,7 +29,7 @@ Gem::Specification.new do |spec|
   #spec.add_dependency "faraday", '>= 0.15'
   spec.add_dependency "command_line_reporter", '~> 3.0'
   spec.add_dependency "gettext-setup", '0.30'
-  spec.add_dependency "fast_gettext", '~> 1.1.0'
+  spec.add_dependency "fast_gettext", '1.1.2'
   spec.add_dependency "faraday", '0.17.4'
   spec.add_dependency "representable", '3.0.4'
   spec.add_dependency "torquebox", '3.2.0'
